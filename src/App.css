@@ -1,0 +1,52 @@
+:root {
+  /* Brand Colours */
+
+  --color-blue: #7ca2f4;
+
+  /* Dark Scale  */
+
+  --color-dark-10: #121214;
+  --color-dark-20: #f3f7ff;
+  --color-dark-30: #ffffff;
+}
+
+html {
+  font-family: "Archivo", sans-serif;
+  font-size: 62, 5%;
+}
+
+header {
+  background-color: var(--color-dark-20);
+  padding: 0.01rem 0;
+
+  margin: 0 -0.5rem;
+  margin-top: -0.5rem;
+
+  text-align: center;
+  font-weight: 500;
+}
+
+section {
+  /* width: 1920px; 
+   height: 400px; */
+
+  margin: 0 -0.5rem;
+
+  background: linear-gradient(
+      0deg,
+      rgba(18, 18, 20, 0.75),
+      rgba(18, 18, 20, 0.75)
+    ),
+    url("Assets/jordan2.png");
+
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+
+  /* Inside auto layout
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0; */
+
+  color: var(--color-dark-30);
+}
